@@ -1,0 +1,23 @@
+body {
+  /* background-color: gray; */
+  /* margin-bottom: 300px; */
+}
+
+.banner-section {
+  background-image: url(../src/assets/banner.jpg);
+  height: 450px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.second-banner {
+  background-image: url(../src/assets/banner2.jpg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
