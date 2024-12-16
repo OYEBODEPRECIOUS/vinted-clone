@@ -157,7 +157,7 @@ const UserProduct = () => {
           </section>
         </section>
         {/* <p className="text-xl font-bold">User Product</p> */}
-        <section className="product-container grid grid-cols-5 gap-5">
+        <section className="product-container grid grid-cols-5 gap-5 max-sm:grid-cols-2 max-md:grid-cols-3">
           {products.map((data, index) => (
             <section key={index} className="product-card grid">
               {/* user info */}

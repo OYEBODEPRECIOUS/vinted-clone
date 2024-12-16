@@ -135,7 +135,7 @@ const Product = () => {
     <>
       <section className="product-section m-5">
         <p className="text-xl font-bold">Newsfeed</p>
-        <section className="product-container grid grid-cols-5 gap-5">
+        <section className="product-container grid grid-cols-5 max-sm:grid-cols-2 max-md:grid-cols-3 gap-5">
           {products.map((data, index) => (
             <section key={index} className="product-card grid">
               {/* user info */}
