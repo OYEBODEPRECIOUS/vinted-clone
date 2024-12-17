@@ -14,7 +14,7 @@ const Navbar = () => {
           </section>
 
           {/* Catalog and Search Options */}
-          <section className="max-sm:hidden flex flex-grow items-center">
+          <section className="max-sm:hidden max-md:hidden flex flex-grow items-center">
             {/* Catalog Dropdown */}
             <select
               className="py-1 px-2 h-10 rounded-tl-md rounded-bl-md text-lg bg-[rgb(242,242,242)] border border-gray-300"
@@ -41,7 +41,7 @@ const Navbar = () => {
           </section>
 
           {/* User Options */}
-          <section className="flex gap-5 max-sm:hidden">
+          <section className="flex gap-5 max-sm:hidden max-md:hidden">
             <button className="text-[rgb(0,118,131)] text-md rounded-md bg-transparent py-1 px-3 border-2 border-[rgb(0,118,131)]">
               Sign up | Login
             </button>
@@ -68,7 +68,7 @@ const Navbar = () => {
         </section>
 
         {/* Catalog and Search Options for small device*/}
-        <section className="my-3 md:hidden lg:hidden flex flex-grow items-center px-2">
+        <section className="my-3 md:hidden m flex flex-grow items-center px-2">
           {/* Catalog Dropdown */}
           <select
             className="py-1 px-2 h-10 rounded-tl-md rounded-bl-md text-lg bg-[rgb(242,242,242)] border border-gray-300"
